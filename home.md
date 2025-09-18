@@ -3,7 +3,7 @@ photo: ../photos/profile.jpg
 title: M.S. Student in Computer Science
 ---
 
-# research interests
+# about me
 
 I am a passionate software developer and data enthusiast with expertise in full-stack development and data-driven solutions. I enjoy designing and enhancing secure, efficient systems that transform complex data into actionable insights. My focus is on combining strong programming skills with analytical thinking to solve real-world problems and deliver meaningful impact.
 
