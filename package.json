@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "main": ".eleventy.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d _site",
     "start": "eleventy --serve",
     "build": "eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/heni-29/heni-prajapati.git"
+    "url": "https://github.com/heni-29/heni-prajapati.git"
   },
   "keywords": [],
   "author": "",
@@ -18,7 +20,8 @@
   },
   "homepage": "https://github.com/heni-29/heni-prajapati#readme",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.2"
+    "@11ty/eleventy": "^3.1.2",
+    "gh-pages": "^6.3.0"
   },
   "devDependencies": {
     "tailwindcss": "^4.1.13"
