@@ -1,0 +1,26 @@
+{
+  "name": "heni-prajapati",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heni-29/heni-prajapati.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heni-29/heni-prajapati/issues"
+  },
+  "homepage": "https://github.com/heni-29/heni-prajapati#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.1.13"
+  }
+}
